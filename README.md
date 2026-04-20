@@ -27,3 +27,28 @@ Example config:
 Continuous Monitoring Mode
 Runs as a daemon with logging support
 Example: continuous_monitor.py
+⚙️ Tech Stack
+Kubernetes (Minikube / EKS / GKE)
+Python (Kubernetes Client API)
+Docker
+Metrics Server (for resource monitoring)
+🚀 Use Cases
+Kubernetes cluster optimization
+Load balancing across nodes
+Resource utilization improvement
+DevOps automation and testing
+Academic / mini-project demonstration
+📊 How It Works (Simple Flow)
+Monitor node metrics
+Detect imbalance
+Identify candidate pods
+Migrate workloads
+Restore balanced state
+🧪 Demo Capability
+
+The project includes a full overload + rebalancing demo that:
+
+Creates CPU stress on selected nodes
+Detects imbalance automatically
+Suggests and executes rebalancing
+Restores cluster health
